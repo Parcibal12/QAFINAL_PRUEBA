@@ -1,0 +1,16 @@
+# Dependencias (Pesadísimo, nunca subir)
+node_modules/
+
+# Variables de entorno (Seguridad: Aquí están tus claves)
+.env
+
+# Archivos de sistema y logs
+.DS_Store
+npm-debug.log
+yarn-error.log
+logs/
+*.log
+
+# Carpetas de resultados de pruebas (opcional)
+reports/
+screenshots/

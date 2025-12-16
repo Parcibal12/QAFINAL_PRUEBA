@@ -23,11 +23,11 @@ export const config = {
         'appium:automationName': 'UiAutomator2',
         'appium:app': process.env.APP, // Usará el bs:// nuevo del .env
         // DATOS DE LA NUEVA APP (SWAGLABS) 👇
-        'appium:appPackage': 'com.swaglabsmobileapp',
-        'appium:appActivity': 'c',
+        //'appium:appPackage': 'com.swaglabsmobileapp',
+        //'appium:appActivity': 'c',
         'bstack:options': {
             "projectName": "Examen Final QA",
-            "buildName": "Intento Final Jenkins",
+            "buildName": "Intento Final - Auto Detect",
             "sessionName": "Flujo de Compra Completo",
             "debug": "true",
             "networkLogs": "true"

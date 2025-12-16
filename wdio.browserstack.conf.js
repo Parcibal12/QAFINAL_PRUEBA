@@ -24,7 +24,7 @@ export const config = {
         'appium:app': process.env.APP, // Usará el bs:// nuevo del .env
         // DATOS DE LA NUEVA APP (SWAGLABS) 👇
         'appium:appPackage': 'com.swaglabsmobileapp',
-        'appium:appActivity': 'com.swaglabsmobileapp.MainActivity',
+        'appium:appActivity': 'c',
         'bstack:options': {
             "projectName": "Examen Final QA",
             "buildName": "Intento Final Jenkins",
